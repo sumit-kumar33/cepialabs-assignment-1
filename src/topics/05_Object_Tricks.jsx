@@ -1,4 +1,4 @@
-function TemplateLiterals() {
+function ObjectTricks() {
   // Your JavaScript code for this topic will go here.
   // For now, let's just return some HTML-like code.
 
@@ -15,4 +15,4 @@ function TemplateLiterals() {
   );
 }
 
-export default TemplateLiterals;
+export default ObjectTricks;
