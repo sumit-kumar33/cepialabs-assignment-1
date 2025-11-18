@@ -8,6 +8,9 @@
 - This repo contains one React component per JavaScript topic (functions, template literals, short conditionals & ternary operators, three array methods, object tricks, Promises + Async JS, ES Modules + import / Export).
 - Each file has some examples and comments describing learnings.
 - Run:
--   npm install
--   npm run dev
+
+```sh
+npm install
+npm run dev
+```
   
