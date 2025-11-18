@@ -1,16 +1,30 @@
 function ObjectTricks() {
-  // Your JavaScript code for this topic will go here.
-  // For now, let's just return some HTML-like code.
+  // Demonstrating property shorthand, destructuring, and spread operator
+  // Property Shorthand - When the property name and variable name are the same, you can use shorthand syntax.
+  // Destructuring - A convenient way to extract multiple properties from an object and assign them to variables.
+  // Spread Operator - Allows an iterable such as an array or object to be expanded in places where zero or more arguments or elements are expected.
 
-  const myName = "Learner";
-  const topic = "JavaScript Basics";
-
+  const topic = "Object Tricks: Property Shorthand, Destructuring, Spread Operator";
+  const userName = "Casie";
+  const user={
+    userName,
+  };
+  const userDetails = {
+    firstName: "Casie",
+    lastName: "Stevens",
+  };
+  const {firstName, ...restDetails} = userDetails;
+  const isEnglishSpeaker = {
+    firstName,
+    ...restDetails,
+  };
   return (
     <div>
       <h1>{topic}</h1>
-      <p>Welcome, {myName}!</p>
-      <p>This is a React component. You can write JavaScript and HTML-like syntax together here.</p>
-      <p>Let's do some math: 2 + 2 = {2 + 2}</p>
+      <p>This demonstrates property shorthand in objects.</p>
+      <p>{user.userName}</p>
+      <p>This demonstrates destructuring and the spread operator.</p>
+      <p>{isEnglishSpeaker.firstName} {isEnglishSpeaker.lastName}</p>
     </div>
   );
 }
