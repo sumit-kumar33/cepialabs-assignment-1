@@ -3,10 +3,12 @@ function Short_Conditionals_and_Ternary_Operators() {
   // For now, let's just return some HTML-like code.
 
   const topic = "Short Conditionals and Ternary Operators";
-
+  const isLoggedIn = true;
   return (
     <div>
       <h1>{topic}</h1>
+      <p>The ternary operator functions exactly the same as an if-statement, but it is shorter, it is an expression (not a statement), and can be inserted within JSX</p>
+      {isLoggedIn ? <p>This is a ternary operator example.</p> : <p>The condition is not met.</p>}
       <p>This is a React component. You can write JavaScript and HTML-like syntax together here.</p>
       <p>Let's do some math: 2 + 2 = {2 + 2}</p>
     </div>
