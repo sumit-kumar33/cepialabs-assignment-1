@@ -12,11 +12,12 @@ function App() {
   return (
     <>
       <Functions />
-      <TemplateLiterals />
-      <Short_Conditionals_and_Ternary_Operators />
-      <ThreeArrayMethods />
-      <ObjectTricks />
-      <PromisesAndAsyncAwaitSyntax />
+      <br /><br />
+      <TemplateLiterals /><br /><br />
+      <Short_Conditionals_and_Ternary_Operators /><br /><br />
+      <ThreeArrayMethods /><br /><br />
+      <ObjectTricks /><br /><br />
+      <PromisesAndAsyncAwaitSyntax /><br /><br />
       <ESModulesImportExportSyntax />
     </>
   )
